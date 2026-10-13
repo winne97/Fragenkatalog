@@ -1,0 +1,54 @@
+.question {
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 20px;
+  padding: 1rem;
+}
+
+h1 {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+}
+
+button {
+  background-color: rgba(240, 240, 240, 0.942);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 2px;
+  padding: 1rem;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+}
+
+.antworten {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.antwort {
+  padding: 3rem;
+}
+
+.otherButton {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+
+.button2 {
+  padding: 1rem;
+}
+
+button:hover {
+  filter: brightness(90%);
+}
+
+.true {
+  background-color: rgb(65, 133, 65);
+}
+
+.false {
+  background-color: rgb(202, 67, 67);
+}
